@@ -6,7 +6,6 @@ import threading
 # Load the trained model
 model = load_model("model.h5")
 
-
 def play_alarm_sound():
     winsound.Beep(1000, 500)
 # Function to predict abnormal events in a video and draw red boxes
